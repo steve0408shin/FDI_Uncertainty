@@ -35,5 +35,5 @@ restore
 
 
 
-generate byte present = !missing(MFNyear)
-bysort present product (MFNyear): generate byte same = MFNyear[1] == MFNyear[_N]
+// generate byte present = !missing(MFNyear)
+// bysort present product (MFNyear): generate byte same = MFNyear[1] == MFNyear[_N]
